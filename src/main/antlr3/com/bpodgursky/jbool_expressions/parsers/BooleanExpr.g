@@ -16,12 +16,12 @@ package com.bpodgursky.jbool_expressions.parsers;
 
 LPAREN : '(' ;
 RPAREN : ')' ;
-AND : '&';
+AND : '&' | ',';
 OR : '|';
 NOT : '!';
 TRUE : 'true';
 FALSE : 'false';
-NAME : ('A'..'Z' | 'a'..'z' | '_' | '0'..'9')+;
+NAME : ('A'..'Z' | 'a'..'z' | '_' | '0'..'9' | '$' | '%' | ':' | '-' | '.')+;
 QUOTED_NAME : '\''~('\r' | '\n' | '\'')+ '\'';
 WS : ( ' ' | '\t' | '\r' | '\n' )+ { $channel = HIDDEN; };
 
