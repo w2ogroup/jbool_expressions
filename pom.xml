@@ -9,7 +9,7 @@
 
   <groupId>com.bpodgursky</groupId>
   <artifactId>jbool_expressions</artifactId>
-  <version>1.9.0-W2O-SNAPSHOT</version>
+  <version>1.9.0-W2O</version>
   <packaging>jar</packaging>
 
   <name>jbool_expressions</name>
@@ -31,7 +31,7 @@
     <connection>scm:git:git@github.com:w2ogroup/jbool_expressions.git</connection>
     <developerConnection>scm:git:git@github.com:w2ogroup/jbool_expressions.git</developerConnection>
     <url>https://github.com/w2ogroup/jbool_expressions</url>
-    <tag>HEAD</tag>
+    <tag>jbool_expressions-1.9.0-W2O</tag>
   </scm>
 
   <developers>
